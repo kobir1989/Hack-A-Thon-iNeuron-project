@@ -1,0 +1,5 @@
+.header__container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top left, #371b58, #7858a6);
+}
