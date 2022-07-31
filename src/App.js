@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react';
 import Dashboard from './Component/StudentDashboard/Dashboard';
+import PartnerCompany from './Component/PartnerCompany/PartnerCompany';
 
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
@@ -18,6 +19,7 @@ function App() {
         <Particles options={particlesOptions} init={particlesInit} />
       </Header>
       <Dashboard />
+      <PartnerCompany />
     </div>
   );
 }

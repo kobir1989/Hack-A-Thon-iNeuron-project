@@ -1,0 +1,39 @@
+.partner__container {
+  width: 100%;
+  margin-top: 8rem;
+  background-color: #dad9dd;
+  height: 20rem;
+}
+.partner__heading {
+  text-align: center;
+}
+.partner__heading h2 {
+  font-size: 2rem;
+  color: #231955;
+  padding: 2rem 0;
+}
+.partner__logo {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  gap: 2rem;
+  animation: rolling 5s linear infinite;
+}
+.partner__logo img {
+  margin-top: 2rem;
+  width: 10rem;
+}
+@keyframes rolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.partner__logo:hover {
+  animation-play-state: paused;
+}
+.partner__logo img:hover {
+  transform: scaleY(1.5);
+}
