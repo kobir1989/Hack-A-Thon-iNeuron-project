@@ -1,0 +1,38 @@
+.dashboard__container {
+  width: 100%;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard__heading {
+  text-align: center;
+}
+.dashboard__heading h2 {
+  color: #231955;
+  font-size: 2rem;
+}
+.dashboard__info {
+  width: 80%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 8rem;
+}
+.info-items {
+  text-align: center;
+}
+.info-items h4 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: #231955;
+}
+.info-items p {
+  font-size: 1.5rem;
+  color: #808080;
+  padding-bottom: 1rem;
+}
+.info-items img {
+  width: 15rem;
+}

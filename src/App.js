@@ -1,4 +1,5 @@
 import React, { useCallback } from 'react';
+import Dashboard from './Component/StudentDashboard/Dashboard';
 
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
@@ -12,9 +13,11 @@ function App() {
   }, []);
 
   return (
-    <div className='App'>
-      <Particles options={particlesOptions} init={particlesInit} />
-      <Header />
+    <div>
+      <Header>
+        <Particles options={particlesOptions} init={particlesInit} />
+      </Header>
+      <Dashboard />
     </div>
   );
 }
