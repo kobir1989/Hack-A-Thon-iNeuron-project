@@ -18,8 +18,7 @@
     "enable": false
   },
   "fullScreen": {
-    "enable": true,
-    "zIndex": 0
+    "enable": true
   },
   "detectRetina": true,
   "duration": 0,

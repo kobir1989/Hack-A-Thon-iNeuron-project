@@ -1,0 +1,12 @@
+.icon {
+  font-size: 4rem;
+  color: #fff;
+}
+.slider__btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.slider__btn:hover {
+  transform: translateY(-0.5rem);
+}
