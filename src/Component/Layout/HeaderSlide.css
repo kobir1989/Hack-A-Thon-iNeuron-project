@@ -8,18 +8,17 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  overflow: hidden;
   position: relative;
 }
 .header__slider {
   display: flex;
   justify-content: space-around;
-  border: 0.5px solid gray;
   width: 80%;
   opacity: 0;
-  transition: opacity ease-out 0.4s;
+  transition: ease-out 0.4s;
   position: absolute;
 }
+
 .header__text {
   color: #fff;
   padding: 1rem;
@@ -45,6 +44,16 @@
 }
 .active-slide {
   opacity: 1;
+  animation: slide 0.5s ease-out;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 1;
+  }
 }
 .next {
   position: absolute;

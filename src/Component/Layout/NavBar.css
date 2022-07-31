@@ -78,6 +78,7 @@
   left: 12%;
   width: 18rem;
   padding: 1rem;
+  z-index: 2;
 }
 .dropdown__content-company {
   position: absolute;
@@ -86,6 +87,7 @@
   width: 25rem;
   padding: 1rem;
   justify-content: space-evenly;
+  z-index: 2;
 }
 .flex-column {
   display: flex;
