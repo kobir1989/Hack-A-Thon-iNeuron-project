@@ -8,6 +8,10 @@ import logo6 from '../../assets/logo/freshworks.png';
 import logo7 from '../../assets/logo/geekyants.png';
 import logo8 from '../../assets/logo/github.png';
 import logo9 from '../../assets/logo/greendeck.png';
+import logo10 from '../../assets/logo/informatica.png';
+import logo11 from '../../assets/logo/jetbrains.png';
+import logo12 from '../../assets/logo/kpmg.png';
+import logo13 from '../../assets/logo/learnyst.png';
 
 import './PartnerCompany.css';
 function PartnerCompany() {
@@ -16,6 +20,7 @@ function PartnerCompany() {
       <div className='partner__heading'>
         <h2>Our Achiever's Work with</h2>
       </div>
+      <div className='logo__container'></div>
       <div className='partner__logo'>
         <div className='company__logo'>
           <img src={logo1} />
@@ -43,6 +48,18 @@ function PartnerCompany() {
         </div>
         <div className='company__logo'>
           <img src={logo9} />
+        </div>
+        <div className='company__logo'>
+          <img src={logo10} />
+        </div>
+        <div className='company__logo'>
+          <img src={logo11} />
+        </div>
+        <div className='company__logo'>
+          <img src={logo12} />
+        </div>
+        <div className='company__logo'>
+          <img src={logo13} />
         </div>
       </div>
     </div>

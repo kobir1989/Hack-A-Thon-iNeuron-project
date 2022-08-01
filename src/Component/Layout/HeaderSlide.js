@@ -27,12 +27,12 @@ const HeaderSlide = () => {
       {DataSlider.map((obj, index) => {
         return (
           <div
+            key={obj.id}
             className={
               slideIndex === index + 1
                 ? 'header__slider active-slide'
                 : 'header__slider'
             }
-            key={obj.id}
           >
             <div className='header__text'>
               <h3>{obj.subTitle}</h3>

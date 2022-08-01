@@ -3,6 +3,8 @@
   margin-top: 8rem;
   background-color: #dad9dd;
   height: 20rem;
+  overflow: hidden;
+  position: relative;
 }
 .partner__heading {
   text-align: center;
@@ -15,17 +17,20 @@
 .partner__logo {
   width: 80%;
   display: flex;
-  margin: auto;
-  gap: 2rem;
-  animation: rolling 5s linear infinite;
+  animation: rolling 6s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.partner__logo img {
+.company__logo img {
   margin-top: 2rem;
   width: 10rem;
+  margin: 2rem 1rem;
 }
 @keyframes rolling {
   0% {
-    transform: translateX(0);
+    transform: translateX(-80%);
   }
   100% {
     transform: translateX(-100%);
