@@ -1,0 +1,60 @@
+.live-program__container {
+  width: 100%;
+  margin-top: 8rem;
+}
+.live-program__container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #231955;
+  margin-bottom: 4rem;
+}
+.courses__btn {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+}
+.courses__btn button {
+  padding: 1rem;
+  border: 1px solid #d1d0d0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+  z-index: 1;
+}
+.btn-active {
+  color: #ffff;
+  background-image: linear-gradient(90deg, #7858a6, #371b58);
+}
+.courses__btn button:hover {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.5rem);
+  color: #ffff;
+}
+.courses__btn button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(90deg, #7858a6, #371b58);
+  z-index: -1;
+  border-radius: 8px;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 300ms ease-in-out;
+}
+.courses__btn button:hover::before {
+  transform: scaleX(1);
+}
+.courses__text h2 {
+  text-align: center;
+}
+.courses__text p {
+  text-align: center;
+  font-size: 1rem;
+}

@@ -1,6 +1,5 @@
 .hall-of-fame__container {
   width: 100%;
-  height: 80vh;
   padding-top: 8rem;
 }
 .hall-of-fame__container h2 {
@@ -12,16 +11,18 @@
 .hall-of-fame__slider {
   width: 70%;
   margin: auto;
+  padding: 2rem;
+  overflow: hidden;
 }
 
 .slick-arrow,
-.slick-arrow:hover,
-.slick-arrow:active {
-  background-color: black;
+.slick-arrow:hover {
+  background-color: #4b4a4a;
   border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
+  z-index: 2;
 }
 .slider__card {
   display: flex;
@@ -37,6 +38,7 @@
   text-align: center;
   background-image: linear-gradient(90deg, #dff6ff, #0a2753);
   color: #ffffff;
+  transition: all 0.3s linear;
 }
 .slider__card img {
   width: 12rem;
@@ -51,4 +53,7 @@
 }
 .card-icon {
   font-size: 2rem;
+}
+.slider__card:hover {
+  transform: scale(1.1);
 }

@@ -7,7 +7,8 @@ import { loadFull } from 'tsparticles';
 import './App.css';
 import particlesOptions from './particles.json';
 import Header from './Component/Header/Header';
-import SyncSlider from './Component/Header/HallOfFame/HallOfFame';
+import HallOfFame from './Component/HallOfFame/HallOfFame';
+import LivePrograms from './Component/LivePrograms/LivePrograms';
 
 function App() {
   const particlesInit = useCallback((main) => {
@@ -21,7 +22,8 @@ function App() {
       </Header>
       <Dashboard />
       <PartnerCompany />
-      <SyncSlider />
+      <HallOfFame />
+      <LivePrograms />
     </div>
   );
 }

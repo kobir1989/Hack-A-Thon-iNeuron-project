@@ -3,16 +3,16 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './HallOfFame.css';
-import student1 from '../../../assets/students/student1.jpg';
-import student2 from '../../../assets/students/student2.jpg';
-import student3 from '../../../assets/students/student3.jpg';
-import student4 from '../../../assets/students/student4.jpg';
-import student5 from '../../../assets/students/student5.jpg';
-import student6 from '../../../assets/students/student6.jpg';
+import student1 from '../../assets/students/student1.jpg';
+import student2 from '../../assets/students/student2.jpg';
+import student3 from '../../assets/students/student3.jpg';
+import student4 from '../../assets/students/student4.jpg';
+import student5 from '../../assets/students/student5.jpg';
+import student6 from '../../assets/students/student6.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-export default function SyncSlider() {
+const HallOfFame = () => {
   const [slider, setSlider] = useState();
   const settings = {
     dots: true,
@@ -20,8 +20,7 @@ export default function SyncSlider() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1200,
     cssEase: 'linear',
   };
   return (
@@ -122,4 +121,5 @@ export default function SyncSlider() {
       </div>
     </div>
   );
-}
+};
+export default HallOfFame;
