@@ -13,6 +13,7 @@ import LiveCourseSlider from './Component/LivePrograms/LiveCourseSlider';
 import HackAthon from './Component/Hackathon/HackAthon';
 import TechAvengers from './Component/TechAvengers/TechAvengers';
 import Institutions from './Component/Institutions/Institutions';
+import Footer from './Component/Footer/Footer';
 function App() {
   const particlesInit = useCallback((main) => {
     loadFull(main);
@@ -31,6 +32,7 @@ function App() {
       <OurProduct />
       <TechAvengers />
       <Institutions />
+      <Footer />
     </div>
   );
 }
