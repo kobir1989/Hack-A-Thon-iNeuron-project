@@ -1,0 +1,36 @@
+.btn {
+  padding: 1rem;
+  border: 1px solid #d1d0d0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+  z-index: 1;
+}
+.btn-active {
+  color: #ffff;
+  background-image: linear-gradient(90deg, #7858a6, #371b58);
+}
+.btn:hover {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.5rem);
+  color: #ffff;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(90deg, #7858a6, #371b58);
+  z-index: -1;
+  border-radius: 8px;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 300ms ease-in-out;
+}
+.btn:hover::before {
+  transform: scaleX(1);
+}

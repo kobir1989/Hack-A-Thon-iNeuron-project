@@ -1,0 +1,29 @@
+.Avengers__card {
+  width: 20rem;
+  height: 25rem;
+  text-align: center;
+  border-radius: 0 2rem 0 2rem;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  margin: 2rem;
+  background-image: linear-gradient(90deg, #d6efed8e, #b7d3dfc5),
+    url('../../assets/tech.jpg');
+}
+.Avengers__card img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  margin: auto;
+  padding: 1rem;
+}
+.Avengers__card h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #003865;
+}
+.Avengers__card p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: 700;
+  color: #003865;
+}

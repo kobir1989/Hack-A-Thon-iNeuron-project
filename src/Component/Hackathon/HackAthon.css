@@ -1,0 +1,22 @@
+.hack-a-thon__container {
+  width: 100%;
+  height: 20rem;
+  background-color: #dad9dd;
+  margin-top: 8rem;
+}
+.hack-a-thon__container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #231955;
+  padding: 2rem 0;
+}
+.hack-a-thon__logo {
+  width: 80%;
+  margin: auto;
+}
+
+.company__logo img {
+  margin-top: 2rem;
+  width: 10rem;
+  margin: 2rem 1rem;
+}

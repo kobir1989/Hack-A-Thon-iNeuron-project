@@ -27,7 +27,6 @@ const HallOfFame = () => {
     <div className='hall-of-fame__container'>
       <h2>Hall of fame</h2>
       <div className='hall-of-fame__slider'>
-        <h4></h4>
         <Slider
           {...settings}
           asSliderFor={slider}

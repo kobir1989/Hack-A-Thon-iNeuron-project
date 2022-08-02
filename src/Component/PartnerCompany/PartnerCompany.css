@@ -3,8 +3,10 @@
   margin-top: 8rem;
   background-color: #dad9dd;
   height: 20rem;
-  overflow: hidden;
-  position: relative;
+}
+.logo__container {
+  width: 80%;
+  margin: auto;
 }
 .partner__heading {
   text-align: center;
@@ -14,31 +16,11 @@
   color: #231955;
   padding: 2rem 0;
 }
-.partner__logo {
-  width: 80%;
-  display: flex;
-  animation: rolling 6s linear infinite;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.company__logo {
+  width: 10rem;
 }
 .company__logo img {
   margin-top: 2rem;
   width: 10rem;
   margin: 2rem 1rem;
-}
-@keyframes rolling {
-  0% {
-    transform: translateX(-80%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-.partner__logo:hover {
-  animation-play-state: paused;
-}
-.partner__logo img:hover {
-  transform: scaleY(1.5);
 }
