@@ -11,9 +11,9 @@
     "react-dom": "^18.2.0",
     "react-particles": "^2.1.4",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.7",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.3.5",
     "tslib": "^2.4.0",
     "tsparticles": "^2.1.4",
     "tsparticles-engine": "^2.1.4"

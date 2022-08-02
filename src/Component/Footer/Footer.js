@@ -22,13 +22,13 @@ const Footer = () => {
           </div>
           <div className='address-text'>
             <p>
-              <img src={location} alt='' className='icon' />
+              <img src={location} alt='' className='footer__icon' />
               17th Floor Tower A, Brigade Signature Towers,
               <br />
               Sannatammanahalli, Bengaluru, Karnataka 562129.
             </p>
             <p>
-              <img src={email} alt='' className='icon' /> Email us:
+              <img src={email} alt='' className='footer__icon' /> Email us:
               contact@ineuron.ai
             </p>
           </div>

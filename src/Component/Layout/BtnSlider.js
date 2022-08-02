@@ -5,7 +5,6 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const BtnSlider = ({ direction, moveSlide }) => {
-  console.log(direction, moveSlide);
   return (
     <button
       onClick={moveSlide}

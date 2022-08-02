@@ -3,6 +3,8 @@ import './NavBar.css';
 import logoIneuron from '../../assets/logo/ineuron-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { Link, animateScroll as scroll } from 'react-scroll';
+// import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 
 const NavBar = () => {
@@ -27,40 +29,46 @@ const NavBar = () => {
         </div>
 
         <input type='text' placeholder='What do you want to learn' />
-        <button>Sign up</button>
-        <button>Sign in</button>
+        <button className='btn'>Sign up</button>
+        <button className='btn'>Sign in</button>
       </div>
       <div className='nav__line-2 flex'>
         <button className='dropdown__btn' onClick={navCoursesHandler}>
           Courses <FontAwesomeIcon icon={faChevronDown} />
         </button>
         {!courses && (
-          <div className='dropdown__content-course dropdown__background'>
-            <a href='#'>DATA SCIENCE</a>
-            <a href='#'>BIG DATA </a>
-            <a href='#'>DATA ANALYTICS</a>
-            <a href='#'>WEB DEVELOPMENT</a>
-            <a href='#'>BLOCKCHAIN</a>
-            <a href='#'>PROGRAMING</a>
-            <a href='#'>SYBER SECURITY</a>
-            <a href='#'>TESTING</a>
-            <a href='#'>DIGITAL MARKETING</a>
-            <a href='#'>CLOUD</a>
-            <a href='#'>DEVOPS</a>
-            <a href='#'>IOT</a>
-            <a href='#'>RPA</a>
-            <a href='#'></a>
-            <a href='#'>AR VR</a>
-            <a href='#'>SALESFORSE</a>
-            <a href='#'>DTATA STRUCTURE</a>
-            <a href='#'>SYSTEM DESIGN</a>
-            <a href='#'>DATABASE</a>
-            <a href='#'>APTITUDE</a>
-            <a href='#'>RESUME</a>
-            <a href='#'>K12</a>
+          <div className='dropdown__content-course '>
+            <div className='left'>
+              <a href='#'>DATA SCIENCE </a>
+              <a href='#'>BIG DATA </a>
+              <a href='#'>DATA ANALYTICS</a>
+              <a href='#'>WEB DEVELOPMENT</a>
+              <a href='#'>BLOCKCHAIN</a>
+              <a href='#'>PROGRAMING</a>
+              <a href='#'>SYBER SECURITY</a>
+              <a href='#'>TESTING</a>
+              <a href='#'>DIGITAL MARKETING</a>
+              <a href='#'>CLOUD</a>
+              <a href='#'>DEVOPS</a>
+              <a href='#'>IOT</a>
+              <a href='#'>RPA</a>
+            </div>
+            <div className='right'>
+              <a href='#'></a>
+              <a href='#'>AR VR</a>
+              <a href='#'>SALESFORSE</a>
+              <a href='#'>DTATA STRUCTURE</a>
+              <a href='#'>SYSTEM DESIGN</a>
+              <a href='#'>DATABASE</a>
+              <a href='#'>APTITUDE</a>
+              <a href='#'>RESUME</a>
+              <a href='#'>K12</a>
+            </div>
           </div>
         )}
-        <a href='#'>One Neuron</a>
+        <a href='#'>
+          One Neuron <Link to='section1'></Link>
+        </a>
         <a href='#'>Job portal</a>
         <a href='#'>Become an affiliate</a>
         <a href='#'>Hall of fame</a>

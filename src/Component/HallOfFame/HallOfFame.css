@@ -17,10 +17,10 @@
 
 .slick-arrow,
 .slick-arrow:hover {
-  background-color: #4b4a4a;
+  background-color: #747373;
   border-radius: 50%;
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
   z-index: 2;
 }
@@ -36,7 +36,7 @@
   margin: 4rem;
   box-shadow: 0 15px 18px rgba(0, 0, 0, 0.3);
   text-align: center;
-  background-image: linear-gradient(90deg, #dff6ff, #0a2753);
+  background-image: linear-gradient(90deg, #dff6ff, #a1c1f1);
   color: #ffffff;
   transition: all 0.3s linear;
 }

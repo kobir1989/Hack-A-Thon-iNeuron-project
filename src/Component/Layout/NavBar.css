@@ -63,6 +63,7 @@
   font-size: 1rem;
   font-weight: 500;
   color: #ffffff;
+  cursor: pointer;
 }
 .dropdown__background {
   background-color: #ffffff;
@@ -72,14 +73,20 @@
 
 .dropdown__content-course {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   position: absolute;
   top: 19%;
   left: 12%;
   width: 18rem;
   padding: 1rem;
   z-index: 2;
+  background-color: #fff;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
 }
+
 .dropdown__content-company {
   position: absolute;
   top: 19%;
@@ -89,18 +96,22 @@
   justify-content: space-evenly;
   z-index: 2;
 }
-.flex-column {
+.flex-column,
+.left,
+.right {
   display: flex;
   flex-direction: column;
 }
 
-.dropdown__background a {
+.dropdown__background a,
+.dropdown__content-course a {
   color: #9e9898;
   font-weight: 600;
   padding: 0.6rem;
   font-size: 0.7rem;
 }
-.dropdown__background a:hover {
+.dropdown__background a:hover,
+.dropdown__content-course a:hover {
   background-color: #e2d3f0cb;
   border-radius: 0 8px 0 8px;
   color: #251d3a;
