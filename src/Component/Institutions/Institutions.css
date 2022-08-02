@@ -1,0 +1,26 @@
+.institutions__container {
+  width: 100%;
+  margin-top: 8rem;
+}
+.institutions__container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #231955;
+}
+.institutions__logo {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  padding: 2rem;
+}
+.logos {
+  width: 10rem;
+  height: 8rem;
+  background-color: #e9e7e7;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 8px;
+}
