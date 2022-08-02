@@ -65,7 +65,7 @@ const TechAvengers = () => {
         >
           <div>
             <div className='Avengers__card'>
-              <img src={student1} />
+              <img src={student1} alt='' />
               <h3>Preson-1</h3>
               <p>Position</p>
 
@@ -76,7 +76,7 @@ const TechAvengers = () => {
           </div>
           <div>
             <div className='Avengers__card'>
-              <img src={student2} />
+              <img src={student2} alt='' />
               <h3>Preson-2</h3>
               <p>Position</p>
 
@@ -87,7 +87,7 @@ const TechAvengers = () => {
           </div>
           <div>
             <div className='Avengers__card'>
-              <img src={student3} />
+              <img src={student3} alt='' />
               <h3>Preson-3</h3>
               <p>Position</p>
 
@@ -98,7 +98,7 @@ const TechAvengers = () => {
           </div>
           <div>
             <div className='Avengers__card'>
-              <img src={student4} />
+              <img src={student4} alt='' />
               <h3>Preson-4</h3>
               <p>Position</p>
 
@@ -109,7 +109,7 @@ const TechAvengers = () => {
           </div>
           <div>
             <div className='Avengers__card'>
-              <img src={student5} />
+              <img src={student5} alt='' />
               <h3>Preson-5</h3>
               <p>Position</p>
 
@@ -120,7 +120,7 @@ const TechAvengers = () => {
           </div>
           <div>
             <div className='Avengers__card'>
-              <img src={student6} />
+              <img src={student6} alt='' />
               <h3>Preson-6</h3>
               <p>Position</p>
 

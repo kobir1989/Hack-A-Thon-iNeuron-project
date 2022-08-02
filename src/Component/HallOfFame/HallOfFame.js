@@ -64,7 +64,7 @@ const HallOfFame = () => {
         >
           <div>
             <div className='slider__card'>
-              <img src={student1} />
+              <img src={student1} alt='' />
               <h3>Student-1</h3>
               <p>Compnay Name</p>
               <p>
@@ -78,7 +78,7 @@ const HallOfFame = () => {
           </div>
           <div>
             <div className='slider__card'>
-              <img src={student2} />
+              <img src={student2} alt='' />
               <h3>Student-2</h3>
               <p>Compnay Name</p>
               <p>
@@ -92,7 +92,7 @@ const HallOfFame = () => {
           </div>
           <div>
             <div className='slider__card'>
-              <img src={student3} />
+              <img src={student3} alt='' />
               <h3>Student-3</h3>
               <p>Compnay Name</p>
               <p>
@@ -106,7 +106,7 @@ const HallOfFame = () => {
           </div>
           <div>
             <div className='slider__card'>
-              <img src={student4} />
+              <img src={student4} alt='' />
               <h3>Student-4</h3>
               <p>Compnay Name</p>
               <p>
@@ -120,7 +120,7 @@ const HallOfFame = () => {
           </div>
           <div>
             <div className='slider__card'>
-              <img src={student5} />
+              <img src={student5} alt='' />
               <h3>Student-5</h3>
               <p>Compnay Name</p>
               <p>
@@ -134,7 +134,7 @@ const HallOfFame = () => {
           </div>
           <div>
             <div className='slider__card'>
-              <img src={student6} />
+              <img src={student6} alt='' />
               <h3>Student-6</h3>
               <p>Compnay Name</p>
               <p>

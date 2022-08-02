@@ -63,7 +63,7 @@ const LiveCourseSlider = () => {
         >
           <div>
             <div className='course__card'>
-              <img id='course-card__img' src={course1} />
+              <img id='course-card__img' src={course1} alt='' />
               <h3>Big Data Boot Camp</h3>
               <h4>$29.99</h4>
               <Button>Live Class</Button>
@@ -72,7 +72,7 @@ const LiveCourseSlider = () => {
           </div>
           <div>
             <div className='course__card'>
-              <img id='course-card__img' src={course2} />
+              <img id='course-card__img' src={course2} alt='' />
               <h3>Python</h3>
               <h4>$18.99</h4>
               <Button>Live Class</Button>
@@ -81,7 +81,7 @@ const LiveCourseSlider = () => {
           </div>
           <div>
             <div className='course__card'>
-              <img id='course-card__img' src={course3} />
+              <img id='course-card__img' src={course3} alt='' />
               <h3>Youtube Mastery</h3>
               <h4>$45.99</h4>
               <Button>Live Class</Button>
@@ -90,7 +90,7 @@ const LiveCourseSlider = () => {
           </div>
           <div>
             <div className='course__card'>
-              <img id='course-card__img' src={course4} />
+              <img id='course-card__img' src={course4} alt='' />
               <h3>Digital Marketing</h3>
               <h4>$21.99</h4>
               <Button>Live Class</Button>
@@ -99,7 +99,7 @@ const LiveCourseSlider = () => {
           </div>
           <div>
             <div className='course__card'>
-              <img id='course-card__img' src={course5} />
+              <img id='course-card__img' src={course5} alt='' />
               <h3>FaceBook Marketing</h3>
               <h4>$25.99</h4>
               <Button>Live Class</Button>
@@ -108,7 +108,7 @@ const LiveCourseSlider = () => {
           </div>
           <div>
             <div className='course__card'>
-              <img id='course-card__img' src={course6} />
+              <img id='course-card__img' src={course6} alt='' />
               <h3>DSA for FAANG</h3>
               <h4>$31.99</h4>
               <Button>Live Class</Button>

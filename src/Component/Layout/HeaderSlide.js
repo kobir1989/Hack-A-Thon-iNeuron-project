@@ -44,6 +44,7 @@ const HeaderSlide = () => {
                 src={
                   process.env.PUBLIC_URL + `/header-img/cover${index + 1}.svg`
                 }
+                alt=''
               />
             </div>
           </div>

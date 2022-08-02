@@ -12,17 +12,17 @@ const Dashboard = () => {
       </div>
       <div className='dashboard__info'>
         <div className='info-items'>
-          <img src={courseIcon} />
+          <img src={courseIcon} alt='' />
           <h4>400+</h4>
           <p>Different Courses</p>
         </div>
         <div className='info-items'>
-          <img src={stutentIcon} />
+          <img src={stutentIcon} alt='' />
           <h4>400000+</h4>
           <p>Students Enrolled</p>
         </div>
         <div className='info-items'>
-          <img src={transitionIcon} />
+          <img src={transitionIcon} alt='' />
           <h4>10000+</h4>
           <p>Successful Transition</p>
         </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './LivePrograms.css';
 import Button from '../Layout/Button';
 // import Slider from 'react-slick';

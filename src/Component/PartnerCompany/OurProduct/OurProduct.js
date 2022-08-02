@@ -11,7 +11,7 @@ const OurProduct = () => {
       <h2>Our Products</h2>
       <div className='product-row-1'>
         <div className='blog'>
-          <img src={productLogo1} />
+          <img src={productLogo1} alt='' />
           <h4>Job Portal</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo
@@ -19,7 +19,7 @@ const OurProduct = () => {
           </p>
         </div>
         <div className='blog'>
-          <img src={productLogo2} />
+          <img src={productLogo2} alt='' />
           <h4>Job Portal</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo
@@ -27,7 +27,7 @@ const OurProduct = () => {
           </p>
         </div>
         <div className='blog'>
-          <img src={productLogo3} />
+          <img src={productLogo3} alt='' />
           <h4>Job Portal</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo
@@ -37,7 +37,7 @@ const OurProduct = () => {
       </div>
       <div className='product-row-2'>
         <div className='blog'>
-          <img src={productLogo4} />
+          <img src={productLogo4} alt='' />
           <h4>Job Portal</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo
@@ -45,7 +45,7 @@ const OurProduct = () => {
           </p>
         </div>
         <div className='blog'>
-          <img src={productLogo5} />
+          <img src={productLogo5} alt='' />
           <h4>Job Portal</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo

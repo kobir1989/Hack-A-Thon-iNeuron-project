@@ -72,70 +72,70 @@ function PartnerCompany() {
         >
           <div>
             <div className='company__logo'>
-              <img src={logo1} />
+              <img src={logo1} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={logo2} />
+              <img src={logo2} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={logo3} />
+              <img src={logo3} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={logo4} />
+              <img src={logo4} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={logo5} />
-            </div>
-          </div>
-
-          <div>
-            <div className='company__logo'>
-              <img src={logo6} />
-            </div>
-          </div>
-          <div>
-            <div className='company__logo'>
-              <img src={logo7} />
-            </div>
-          </div>
-          <div>
-            <div className='company__logo'>
-              <img src={logo8} />
+              <img src={logo5} alt='' />
             </div>
           </div>
 
           <div>
             <div className='company__logo'>
-              <img src={logo9} />
+              <img src={logo6} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={logo10} />
+              <img src={logo7} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={logo11} />
+              <img src={logo8} alt='' />
             </div>
           </div>
 
           <div>
             <div className='company__logo'>
-              <img src={logo12} />
+              <img src={logo9} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={logo13} />
+              <img src={logo10} alt='' />
+            </div>
+          </div>
+          <div>
+            <div className='company__logo'>
+              <img src={logo11} alt='' />
+            </div>
+          </div>
+
+          <div>
+            <div className='company__logo'>
+              <img src={logo12} alt='' />
+            </div>
+          </div>
+          <div>
+            <div className='company__logo'>
+              <img src={logo13} alt='' />
             </div>
           </div>
         </Slider>

@@ -3,8 +3,7 @@ import './NavBar.css';
 import logoIneuron from '../../assets/logo/ineuron-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import { Link, animateScroll as scroll } from 'react-scroll';
-// import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+
 import { useState } from 'react';
 
 const NavBar = () => {
@@ -39,40 +38,37 @@ const NavBar = () => {
         {!courses && (
           <div className='dropdown__content-course '>
             <div className='left'>
-              <a href='#'>DATA SCIENCE </a>
-              <a href='#'>BIG DATA </a>
-              <a href='#'>DATA ANALYTICS</a>
-              <a href='#'>WEB DEVELOPMENT</a>
-              <a href='#'>BLOCKCHAIN</a>
-              <a href='#'>PROGRAMING</a>
-              <a href='#'>SYBER SECURITY</a>
-              <a href='#'>TESTING</a>
-              <a href='#'>DIGITAL MARKETING</a>
-              <a href='#'>CLOUD</a>
-              <a href='#'>DEVOPS</a>
-              <a href='#'>IOT</a>
-              <a href='#'>RPA</a>
+              <h5>DATA SCIENCE </h5>
+              <h5>BIG DATA </h5>
+              <h5>DATA ANALYTICS</h5>
+              <h5>WEB DEVELOPMENT</h5>
+              <h5>BLOCKCHAIN</h5>
+              <h5>PROGRAMING</h5>
+              <h5>SYBER SECURITY</h5>
+              <h5>TESTING</h5>
+              <h5>DIGITAL MARKETING</h5>
+              <h5>CLOUD</h5>
+              <h5>DEVOPS</h5>
+              <h5>IOT</h5>
+              <h5>RPA</h5>
             </div>
             <div className='right'>
-              <a href='#'></a>
-              <a href='#'>AR VR</a>
-              <a href='#'>SALESFORSE</a>
-              <a href='#'>DTATA STRUCTURE</a>
-              <a href='#'>SYSTEM DESIGN</a>
-              <a href='#'>DATABASE</a>
-              <a href='#'>APTITUDE</a>
-              <a href='#'>RESUME</a>
-              <a href='#'>K12</a>
+              <h5>AR VR</h5>
+              <h5>SALESFORSE</h5>
+              <h5>DTATA STRUCTURE</h5>
+              <h5>SYSTEM DESIGN</h5>
+              <h5>DATABASE</h5>
+              <h5>APTITUDE</h5>
+              <h5>RESUME</h5>
+              <h5>K12</h5>
             </div>
           </div>
         )}
-        <a href='#'>
-          One Neuron <Link to='section1'></Link>
-        </a>
-        <a href='#'>Job portal</a>
-        <a href='#'>Become an affiliate</a>
-        <a href='#'>Hall of fame</a>
-        <a href='#'>Internship</a>
+        <h5>One Neuron</h5>
+        <h5>Job portal</h5>
+        <h5>Become an affiliate</h5>
+        <h5>Hall of fame</h5>
+        <h5>Internship</h5>
 
         <button className='dropdown__btn' onClick={navCompanyHandler}>
           Company <FontAwesomeIcon icon={faChevronDown} />
@@ -81,16 +77,16 @@ const NavBar = () => {
         {!company && (
           <div className='dropdown__content-company dropdown__background flex'>
             <div className='flex-column'>
-              <a href='#'>About us</a>
-              <a href='#'>Hack-A-Thon</a>
-              <a href='#'>Job guarantee</a>
-              <a href='#'>Privacy Policy</a>
+              <h5>About us</h5>
+              <h5>Hack-A-Thon</h5>
+              <h5>Job guarantee</h5>
+              <h5>Privacy Policy</h5>
             </div>
             <div className='flex-column'>
-              <a href='#'>Contract us</a>
-              <a href='#'>FAQs</a>
-              <a href='#'>Job assistance</a>
-              <a href='#'>Terms & Conditions</a>
+              <h5>Contract us</h5>
+              <h5>FAQs</h5>
+              <h5>Job assistance</h5>
+              <h5>Terms & Conditions</h5>
             </div>
           </div>
         )}

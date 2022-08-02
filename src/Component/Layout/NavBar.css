@@ -49,13 +49,16 @@
   justify-content: space-evenly;
   margin-top: 1rem;
 }
-.nav__line-2 a {
+.nav__line-2 h5 {
   text-decoration: none;
   color: #ffffff;
   font-size: 0.8rem;
   margin: 0 1rem;
   font-size: 1rem;
   font-weight: 500;
+}
+.nav__line-2 h5:hover {
+  cursor: pointer;
 }
 .dropdown__btn {
   background-color: transparent;
@@ -103,16 +106,17 @@
   flex-direction: column;
 }
 
-.dropdown__background a,
-.dropdown__content-course a {
+.dropdown__background h5,
+.dropdown__content-course h5 {
   color: #9e9898;
   font-weight: 600;
   padding: 0.6rem;
   font-size: 0.7rem;
 }
-.dropdown__background a:hover,
-.dropdown__content-course a:hover {
+.dropdown__background h5:hover,
+.dropdown__content-course h5:hover {
   background-color: #e2d3f0cb;
   border-radius: 0 8px 0 8px;
   color: #251d3a;
+  cursor: pointer;
 }

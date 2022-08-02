@@ -14,10 +14,10 @@ const Footer = () => {
           <div className='address '>
             <h4>iNeuron</h4>
             <div className='icons'>
-              <img src={facebook} />
-              <img src={linkedIn} />
-              <img src={twitter} />
-              <img src={youtube} />
+              <img src={facebook} alt='' />
+              <img src={linkedIn} alt='' />
+              <img src={twitter} alt='' />
+              <img src={youtube} alt='' />
             </div>
           </div>
           <div className='address-text'>

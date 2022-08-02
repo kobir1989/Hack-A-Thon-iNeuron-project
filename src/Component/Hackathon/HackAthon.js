@@ -62,27 +62,27 @@ function HackAthon() {
         >
           <div>
             <div className='company__logo'>
-              <img src={hackAThon1} />
+              <img src={hackAThon1} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={hackAThon2} />
+              <img src={hackAThon2} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={HackAThon3} />
+              <img src={HackAThon3} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={HackAThon4} />
+              <img src={HackAThon4} alt='' />
             </div>
           </div>
           <div>
             <div className='company__logo'>
-              <img src={HackAThon5} />
+              <img src={HackAThon5} alt='' />
             </div>
           </div>
         </Slider>
