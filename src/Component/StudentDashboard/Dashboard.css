@@ -36,3 +36,27 @@
 .info-items img {
   width: 15rem;
 }
+@media (max-width: 700px) {
+  .dashboard__info {
+    width: 90%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+  }
+
+  .info-items h4 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #231955;
+  }
+  .info-items p {
+    font-size: 1.5rem;
+    color: #808080;
+    padding-bottom: 1rem;
+  }
+  .info-items img {
+    width: 15rem;
+  }
+}

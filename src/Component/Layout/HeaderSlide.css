@@ -35,9 +35,7 @@
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-.header__text h1 span {
-  color: #ffa500;
-}
+
 .header__text p {
   font-size: 1.2rem;
   font-weight: 600;
@@ -104,24 +102,55 @@
   .header__slider {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     opacity: 0;
     transition: ease-out 0.4s;
-    position: absolute;
   }
   .slider__container {
-    height: 100vh;
+    width: 100%;
+    height: 40rem;
+  }
+  .active-slide {
+    opacity: 1;
+    animation: slide 0.5s ease-out;
   }
 
   .cover__img img {
-    width: 10rem;
-    height: 10rem;
+    width: 30rem;
+    height: 15rem;
   }
   .header__text h3 {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
 
   .header__text h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
+  }
+  .header__text p {
+    font-size: 0.9rem;
+  }
+  .next {
+    position: absolute;
+    top: 50%;
+    right: 1%;
+  }
+  .prev {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+  }
+
+  .sm-round {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 0.5rem;
+  }
+  .sm-round.sm-round-active {
+    border: 0.2rem solid rgb(136, 135, 135);
   }
 }
