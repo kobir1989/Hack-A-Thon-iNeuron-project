@@ -14,9 +14,8 @@
   height: 12rem;
   border: 2px solid #fff;
   border-radius: 50%;
-
+  background: rgb(236, 235, 235);
   margin: auto;
-  padding: 1rem;
 }
 .Avengers__card h3 {
   font-size: 1.2rem;
