@@ -3,6 +3,7 @@
   margin-top: 8rem;
   background-color: #dad9dd;
   height: 20rem;
+  overflow: hidden;
 }
 .logo__container {
   width: 80%;
@@ -23,4 +24,16 @@
   margin-top: 2rem;
   width: 10rem;
   margin: 2rem 1rem;
+}
+@media (max-width: 700px) {
+  .logo__container {
+    width: 90%;
+    margin: auto;
+  }
+  .partner__container {
+    height: 16rem;
+  }
+  .partner__heading h2 {
+    font-size: 1.5rem;
+  }
 }

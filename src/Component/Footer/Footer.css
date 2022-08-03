@@ -95,3 +95,53 @@
     transform: translate(-50%, 1%);
   }
 }
+@media (max-width: 700px) {
+  .footer__container {
+    height: 100vh;
+    margin-top: 4rem;
+    position: relative;
+  }
+
+  .footer__container-sub {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    margin: 0 0;
+  }
+  .footer-info__1 {
+    flex: 0;
+  }
+
+  .address h4 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .address-text p {
+    font-size: 0.8rem;
+    margin: 1.5rem;
+  }
+
+  .footer-info__1 {
+    margin-top: 3.6rem;
+  }
+  .footer-info__2 {
+    margin-left: -3.5rem;
+  }
+
+  .footer-info__2 h4 {
+    font-size: 1.5rem;
+  }
+  .footer-info__3 {
+    margin-left: -13rem;
+  }
+  .footer-info__3 h4 {
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+}

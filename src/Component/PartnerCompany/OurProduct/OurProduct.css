@@ -41,3 +41,40 @@
   height: 12rem;
   margin-top: 1rem;
 }
+@media (max-width: 700px) {
+  .product__container {
+    width: 90%;
+
+    margin-top: 4rem;
+  }
+  .product__container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .product-row-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .product-row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog {
+    width: 25rem;
+    height: 20rem;
+    text-align: center;
+  }
+  .blog p {
+    font-size: 0.8rem;
+  }
+  .blog h4 {
+    font-size: 1rem;
+  }
+  .blog h4 {
+    font-size: 1rem;
+  }
+}

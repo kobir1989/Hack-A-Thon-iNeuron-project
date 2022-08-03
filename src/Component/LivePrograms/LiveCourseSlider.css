@@ -5,6 +5,7 @@
 }
 .course__container {
   width: 100%;
+  overflow: hidden;
 }
 .course__card {
   width: 20rem;
@@ -34,5 +35,18 @@ h4 {
     height: 22rem;
     margin: 6rem;
     padding: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  .course__card {
+    width: 15rem;
+    height: 20rem;
+    margin: 4rem 1rem;
+  }
+  .course__card h3,
+  h4 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #231955;
   }
 }

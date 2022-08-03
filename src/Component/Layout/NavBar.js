@@ -35,7 +35,7 @@ const NavBar = () => {
           />
         </div>
 
-        <input type='text' placeholder='What do you want to learn' />
+        <input type='text' placeholder='What do you want to learn?' />
         <button className={!manue ? 'btn btn-1' : 'nav__hidden btn btn-1'}>
           Sign up
         </button>

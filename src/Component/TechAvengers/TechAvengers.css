@@ -34,3 +34,17 @@
     margin: 6rem;
   }
 }
+@media (max-width: 700px) {
+  .Avengers__card {
+    width: 16rem;
+    height: 22rem;
+    margin: 4rem 0.5rem;
+  }
+  .Avengers__card h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  .Avengers__card p {
+    font-size: 0.8rem;
+  }
+}

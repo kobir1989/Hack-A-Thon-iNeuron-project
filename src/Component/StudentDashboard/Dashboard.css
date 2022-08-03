@@ -43,20 +43,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 8rem;
+    padding-top: 4rem;
   }
-
+  .dashboard__heading h2 {
+    font-size: 1.5rem;
+  }
   .info-items h4 {
-    font-size: 2rem;
-    padding-bottom: 1rem;
-    color: #231955;
+    font-size: 1rem;
   }
   .info-items p {
-    font-size: 1.5rem;
-    color: #808080;
-    padding-bottom: 1rem;
-  }
-  .info-items img {
-    width: 15rem;
+    font-size: 1rem;
   }
 }

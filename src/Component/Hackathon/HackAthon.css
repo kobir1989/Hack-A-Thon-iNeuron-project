@@ -3,6 +3,7 @@
   height: 20rem;
   background-color: #dad9dd;
   margin-top: 8rem;
+  overflow: hidden;
 }
 .hack-a-thon__container h2 {
   text-align: center;
@@ -19,4 +20,21 @@
   margin-top: 2rem;
   width: 10rem;
   margin: 2rem 1rem;
+}
+@media (max-width: 700px) {
+  .hack-a-thon__container {
+    height: 18rem;
+    margin-top: 4rem;
+  }
+  .hack-a-thon__container h2 {
+    font-size: 1.5rem;
+  }
+  .hack-a-thon__logo {
+    width: 90%;
+  }
+
+  .company__logo img {
+    margin-top: 2rem;
+    width: 8rem;
+  }
 }

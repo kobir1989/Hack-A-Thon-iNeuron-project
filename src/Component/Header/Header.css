@@ -3,4 +3,5 @@
   height: 100vh;
   background-image: linear-gradient(to top left, #371b58, #7858a6);
   clip-path: polygon(0 0, 100% 0, 100% 78%, 50% 100%, 50% 100%, 0 78%);
+  overflow: hidden;
 }

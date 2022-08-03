@@ -1,6 +1,7 @@
 .live-program__container {
   width: 100%;
   margin-top: 8rem;
+  overflow: hidden;
 }
 .live-program__container h2 {
   text-align: center;
@@ -21,4 +22,21 @@
 .courses__text p {
   text-align: center;
   font-size: 1rem;
+}
+@media (max-width: 700px) {
+  .courses__btn {
+    width: 95%;
+  }
+  .live-program__container {
+    margin-top: 4rem;
+  }
+  .live-program__container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .courses__btn button {
+    font-size: 0.5rem;
+    width: 5rem;
+  }
 }
