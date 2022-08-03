@@ -12,7 +12,9 @@
 .Avengers__card img {
   width: 12rem;
   height: 12rem;
+  border: 2px solid #fff;
   border-radius: 50%;
+
   margin: auto;
   padding: 1rem;
 }
