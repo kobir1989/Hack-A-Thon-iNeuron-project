@@ -77,7 +77,6 @@
   position: absolute;
   top: 17%;
   left: 12%;
-  width: 18rem;
   padding: 1rem;
   z-index: 2;
   background-color: #fff;
@@ -122,18 +121,33 @@
   height: 2rem;
 }
 .search__icon {
-  width: 2rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .search__icon-div {
   position: absolute;
   left: 75%;
-  top: 3.5%;
+  top: 5%;
   width: 1rem;
   height: 2rem;
 }
 .mobile__nav {
   display: none;
+}
+@media (max-width: 1366px) {
+  .dropdown__content-course {
+    top: 20%;
+    left: 12%;
+
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .dropdown__content-company {
+    position: absolute;
+    top: 20%;
+    right: 12%;
+  }
 }
 @media (max-width: 700px) {
   .nav__line-1 {
@@ -163,7 +177,7 @@
   }
   .nav__line-2 {
     width: 100%;
-    height: 25rem;
+    height: 35rem;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -217,14 +231,14 @@
   }
   .nav__line-1 .btn-1 {
     position: absolute;
-    top: 60%;
+    top: 65%;
     right: 15%;
     color: #251d3a;
     width: 30%;
   }
   .nav__line-1 .btn-2 {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 5%;
     color: #251d3a;
     width: 30%;

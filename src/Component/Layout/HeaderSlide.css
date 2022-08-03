@@ -5,7 +5,7 @@
 }
 .slider__container {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -19,6 +19,7 @@
   opacity: 0;
   transition: ease-out 0.4s;
   position: absolute;
+  margin-top: -15rem;
 }
 
 .header__text {
@@ -57,13 +58,13 @@
 }
 .next {
   position: absolute;
-  top: 50%;
+  top: 35%;
   right: 7%;
   transform: translateY(-10%);
 }
 .prev {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 7%;
   transform: translateY(-10%);
 }
@@ -87,9 +88,17 @@
   border: 0.2rem solid #fff;
 }
 @media (max-width: 1366px) {
+  .header__slider {
+    margin-top: -10rem;
+  }
+
   .cover__img img {
     width: 30rem;
     height: 25rem;
+  }
+  .header__text p {
+    font-size: 1rem;
+    font-weight: 600;
   }
   .header__text h3 {
     font-size: 1.4rem;
