@@ -28,15 +28,19 @@
 }
 .address {
   display: flex;
-  justify-content: space-between;
-  border-bottom: 3px solid #fa8072;
+  flex-direction: column;
 }
+
 .address h4 {
   color: #ffff;
   font-size: 1.2rem;
   padding-bottom: 0.5rem;
+  border-bottom: 3px solid #fa8072;
 }
-
+.icons {
+  position: absolute;
+  left: 25%;
+}
 .address-text p {
   font-size: 1rem;
   margin-top: 1rem;
@@ -45,10 +49,11 @@
   cursor: pointer;
   color: #ffffff;
 }
-.icons img {
-  width: 2rem;
-  height: 1rem;
-  margin-top: 1rem;
+
+.social__icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 1rem;
 }
 .footer-info__1 {
   margin-top: -3.6rem;
@@ -88,6 +93,18 @@
   width: 2.5rem;
   height: 1rem;
 }
+.facebook {
+  color: #176ef1;
+}
+.linked-in {
+  color: #0077b5;
+}
+.youtube {
+  color: #f12020;
+}
+.twitter {
+  color: #00acee;
+}
 @media (max-width: 1366px) {
   .footer__container-sub {
     bottom: 1rem;
@@ -98,7 +115,7 @@
 @media (max-width: 700px) {
   .footer__container {
     height: 100vh;
-    margin-top: 4rem;
+    margin-top: 2rem;
     position: relative;
   }
 
@@ -115,33 +132,48 @@
   .footer-info__1 {
     flex: 0;
   }
-
+  .icons {
+    margin-left: 5rem;
+  }
+  .social__icons {
+    margin: 0 0.5rem;
+  }
   .address h4 {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
   }
 
   .address-text p {
     font-size: 0.8rem;
-    margin: 1.5rem;
+    margin: 0.5rem 0;
   }
 
   .footer-info__1 {
-    margin-top: 3.6rem;
+    margin-top: 0rem;
   }
   .footer-info__2 {
-    margin-left: -3.5rem;
+    margin-left: 3rem;
   }
-
   .footer-info__2 h4 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .footer-info__3 {
     margin-left: -13rem;
   }
   .footer-info__3 h4 {
-    margin-top: 2rem;
-    padding-bottom: 1.5rem;
-    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .footer-info__3 ul li {
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+  }
+  .footer-nav__items ul {
+    margin: 0 4rem 0 0;
+  }
+  .footer-nav__items ul li {
+    font-size: 0.8rem;
   }
 }

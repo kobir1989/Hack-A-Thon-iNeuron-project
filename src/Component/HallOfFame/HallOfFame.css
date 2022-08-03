@@ -68,9 +68,18 @@
 }
 @media (max-width: 700px) {
   .slider__card {
-    width: 15rem;
+    width: 16rem;
     height: 22rem;
-    margin: 4rem 1rem;
+    margin: 4rem;
+  }
+  .slider__card img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+  }
+  .hall-of-fame__slider {
+    width: 95%;
   }
   .hall-of-fame__container h2 {
     font-size: 1.5rem;

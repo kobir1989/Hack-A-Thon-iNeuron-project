@@ -22,7 +22,7 @@ function PartnerCompany() {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1200,
@@ -46,15 +46,15 @@ function PartnerCompany() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
     ],

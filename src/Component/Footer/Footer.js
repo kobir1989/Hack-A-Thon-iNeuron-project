@@ -1,36 +1,31 @@
 import React from 'react';
 import './Footer.css';
-import facebook from '../../assets/svg-icon/facebook.svg';
-import linkedIn from '../../assets/svg-icon/linkedin-in.svg';
-import twitter from '../../assets/svg-icon/twitter.svg';
-import youtube from '../../assets/svg-icon/youtube.svg';
-import email from '../../assets/svg-icon/email.svg';
-import location from '../../assets/svg-icon/location.svg';
+import { FaFacebookF } from 'react-icons/fa';
+import { AiOutlineTwitter } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillYoutube } from 'react-icons/ai';
+
 const Footer = () => {
   return (
     <div className='footer__container'>
       <div className='footer__container-sub'>
         <div className='footer-info__1 info'>
           <div className='address '>
-            <h4>iNeuron</h4>
             <div className='icons'>
-              <img src={facebook} alt='' />
-              <img src={linkedIn} alt='' />
-              <img src={twitter} alt='' />
-              <img src={youtube} alt='' />
+              <FaFacebookF className='social__icons facebook' />
+              <AiFillLinkedin className='social__icons linked-in' />
+              <AiFillYoutube className='social__icons youtube' />
+              <AiOutlineTwitter className='social__icons twitter' />
             </div>
+            <h4>iNeuron</h4>
           </div>
           <div className='address-text'>
             <p>
-              <img src={location} alt='' className='footer__icon' />
               17th Floor Tower A, Brigade Signature Towers,
               <br />
               Sannatammanahalli, Bengaluru, Karnataka 562129.
             </p>
-            <p>
-              <img src={email} alt='' className='footer__icon' /> Email us:
-              contact@ineuron.ai
-            </p>
+            <p>Email us: contact@ineuron.ai</p>
           </div>
         </div>
         <div className='footer-info__2 info'>

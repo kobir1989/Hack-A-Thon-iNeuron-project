@@ -6,9 +6,10 @@
 .course__container {
   width: 100%;
   overflow: hidden;
+  margin: auto;
 }
 .course__card {
-  width: 20rem;
+  width: 18rem;
   height: 25rem;
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.3);
   display: flex;
@@ -39,9 +40,13 @@ h4 {
 }
 @media (max-width: 700px) {
   .course__card {
-    width: 15rem;
-    height: 20rem;
-    margin: 4rem 1rem;
+    width: 16rem;
+    height: 22rem;
+    margin: 4rem;
+  }
+  .hall-of-fame__slider {
+    width: 95%;
+    margin: auto;
   }
   .course__card h3,
   h4 {
