@@ -23,9 +23,28 @@
   text-align: center;
   font-size: 1rem;
 }
+.input__field {
+  display: none;
+}
 @media (max-width: 700px) {
   .courses__btn {
-    width: 95%;
+    display: none;
+  }
+  .input__field {
+    text-align: center;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  #courses {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ebeaea;
+    width: 18rem;
+    outline: none;
+  }
+  .option__class {
+    font-size: 1rem;
   }
   .live-program__container {
     margin-top: 4rem;

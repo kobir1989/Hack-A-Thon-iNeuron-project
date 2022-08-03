@@ -4,6 +4,9 @@ import { FaFacebookF } from 'react-icons/fa';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillYoutube } from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
+
+import { GoLocation } from 'react-icons/go';
 
 const Footer = () => {
   return (
@@ -21,11 +24,13 @@ const Footer = () => {
           </div>
           <div className='address-text'>
             <p>
-              17th Floor Tower A, Brigade Signature Towers,
+              <GoLocation /> 17th Floor Tower A, Brigade Signature Towers,
               <br />
               Sannatammanahalli, Bengaluru, Karnataka 562129.
             </p>
-            <p>Email us: contact@ineuron.ai</p>
+            <p>
+              <AiOutlineMail /> us: contact@ineuron.ai
+            </p>
           </div>
         </div>
         <div className='footer-info__2 info'>
