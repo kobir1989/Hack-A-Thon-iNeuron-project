@@ -57,3 +57,10 @@
 .slider__card:hover {
   transform: scale(1.1);
 }
+@media (max-width: 1340px) {
+  .slider__card {
+    width: 16rem;
+    height: 22rem;
+    margin: 6rem;
+  }
+}

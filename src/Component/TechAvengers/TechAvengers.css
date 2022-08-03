@@ -27,3 +27,11 @@
   font-weight: 700;
   color: #003865;
 }
+@media (max-width: 1340px) {
+  .Avengers__card {
+    width: 18rem;
+    height: 22rem;
+
+    margin: 6rem;
+  }
+}

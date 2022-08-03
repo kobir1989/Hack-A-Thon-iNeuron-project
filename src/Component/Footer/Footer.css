@@ -14,9 +14,9 @@
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  bottom: 0rem;
+  bottom: 2rem;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 1%);
   color: #cecaca;
 }
 
@@ -87,4 +87,11 @@
 .footer__icon {
   width: 2.5rem;
   height: 1rem;
+}
+@media (max-width: 1340px) {
+  .footer__container-sub {
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 1%);
+  }
 }

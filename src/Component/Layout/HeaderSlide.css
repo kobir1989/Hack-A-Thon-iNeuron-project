@@ -1,6 +1,7 @@
 .cover__img img {
   width: 35rem;
   height: 35rem;
+  z-index: 2;
 }
 .slider__container {
   width: 100%;
@@ -85,4 +86,20 @@
 .sm-round.sm-round-active {
   background-color: #76549a;
   border: 0.2rem solid #fff;
+}
+@media (max-width: 1340px) {
+  .cover__img img {
+    width: 30rem;
+    height: 25rem;
+  }
+  .header__text h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #d1512d;
+  }
+
+  .header__text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
 }
