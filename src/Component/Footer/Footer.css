@@ -88,7 +88,7 @@
   width: 2.5rem;
   height: 1rem;
 }
-@media (max-width: 1340px) {
+@media (max-width: 1366px) {
   .footer__container-sub {
     bottom: 1rem;
     left: 50%;
