@@ -68,9 +68,6 @@ const NavBar = () => {
               <h5>TESTING</h5>
               <h5>DIGITAL MARKETING</h5>
               <h5>CLOUD</h5>
-              <h5>DEVOPS</h5>
-              <h5>IOT</h5>
-              <h5>RPA</h5>
             </div>
             <div className='right'>
               <h5>AR VR</h5>
@@ -81,6 +78,9 @@ const NavBar = () => {
               <h5>APTITUDE</h5>
               <h5>RESUME</h5>
               <h5>K12</h5>
+              <h5>DEVOPS</h5>
+              <h5>IOT</h5>
+              <h5>RPA</h5>
             </div>
           </div>
         )}

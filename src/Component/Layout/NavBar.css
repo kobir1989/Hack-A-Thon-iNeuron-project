@@ -204,29 +204,27 @@
     height: 30rem;
     border-radius: 8px;
     position: absolute;
-    top: 30%;
-    left: 2%;
+    top: 21%;
+    left: 5%;
   }
 
   .dropdown__content-company {
     position: absolute;
-    top: 10%;
-    left: 7%;
     width: 20rem;
     position: absolute;
-    top: 58%;
-    left: 2%;
+    top: 60%;
+    left: 5%;
   }
   .nav__line-1 .btn-1 {
     position: absolute;
-    top: 48%;
+    top: 65%;
     right: 15%;
     color: #251d3a;
     width: 30%;
   }
   .nav__line-1 .btn-2 {
     position: absolute;
-    top: 48%;
+    top: 65%;
     left: 5%;
     color: #251d3a;
     width: 30%;
