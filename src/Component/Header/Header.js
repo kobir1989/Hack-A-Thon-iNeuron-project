@@ -7,6 +7,7 @@ const Header = () => {
   return (
     <div className='header__container'>
       <NavBar />
+
       <HeaderSlide />
     </div>
   );

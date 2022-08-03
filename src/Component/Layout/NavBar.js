@@ -1,24 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './NavBar.css';
 import logoIneuron from '../../assets/logo/ineuron-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-
-import { useState } from 'react';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { BsSearch } from 'react-icons/bs';
 
 const NavBar = () => {
+  const [manue, setManue] = useState(true);
   const [courses, setCourses] = useState(true);
   const [company, setCompany] = useState(true);
   const navCoursesHandler = () => {
     setCourses(!courses);
-    console.log('hello');
   };
   const navCompanyHandler = () => {
     setCompany(!company);
   };
+  const showNavHandler = () => {
+    setManue(!manue);
+    console.log('clicked');
+  };
+
   return (
     <div className='nav__container'>
       <div className='nav__line-1 flex'>
+        <div className='mobile__nav'>
+          <GiHamburgerMenu className='maune__icon' onClick={showNavHandler} />
+        </div>
         <div className='nav__logo'>
           <img
             src={logoIneuron}
@@ -28,13 +36,25 @@ const NavBar = () => {
         </div>
 
         <input type='text' placeholder='What do you want to learn' />
-        <button className='btn'>Sign up</button>
-        <button className='btn'>Sign in</button>
-      </div>
-      <div className='nav__line-2 flex'>
-        <button className='dropdown__btn' onClick={navCoursesHandler}>
-          Courses <FontAwesomeIcon icon={faChevronDown} />
+        <button className={!manue ? 'btn btn-1' : 'nav__hidden btn btn-1'}>
+          Sign up
         </button>
+        <button className={!manue ? 'btn btn-2' : ' nav__hidden btn btn-2'}>
+          Sign in
+        </button>
+        <div className='search__icon-div'>
+          <BsSearch className='search__icon' />
+        </div>
+      </div>
+
+      <div
+        className={!manue ? 'nav__line-2' : 'nav__hidden nav__line-2-laptop'}
+      >
+        <div>
+          <button className='dropdown__btn' onClick={navCoursesHandler}>
+            Courses <FontAwesomeIcon icon={faChevronDown} />
+          </button>
+        </div>
         {!courses && (
           <div className='dropdown__content-course '>
             <div className='left'>
@@ -70,10 +90,12 @@ const NavBar = () => {
         <h5>Hall of fame</h5>
         <h5>Internship</h5>
 
-        <button className='dropdown__btn' onClick={navCompanyHandler}>
-          Company <FontAwesomeIcon icon={faChevronDown} />
-          <i className='fa fa-caret-down'></i>
-        </button>
+        <div>
+          <button className='dropdown__btn' onClick={navCompanyHandler}>
+            Company <FontAwesomeIcon icon={faChevronDown} />
+            <i className='fa fa-caret-down'></i>
+          </button>
+        </div>
         {!company && (
           <div className='dropdown__content-company dropdown__background flex'>
             <div className='flex-column'>

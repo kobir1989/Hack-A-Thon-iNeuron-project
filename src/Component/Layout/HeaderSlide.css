@@ -1,6 +1,6 @@
 .cover__img img {
-  width: 35rem;
-  height: 35rem;
+  width: 32rem;
+  height: 32rem;
   z-index: 2;
 }
 .slider__container {
@@ -94,12 +94,34 @@
   }
   .header__text h3 {
     font-size: 1.4rem;
-    margin-bottom: 1rem;
-    border-bottom: 3px solid #d1512d;
   }
 
   .header__text h1 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  .header__slider {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    opacity: 0;
+    transition: ease-out 0.4s;
+    position: absolute;
+  }
+  .slider__container {
+    height: 100vh;
+  }
+
+  .cover__img img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .header__text h3 {
+    font-size: 0.8rem;
+  }
+
+  .header__text h1 {
+    font-size: 1.7rem;
   }
 }
