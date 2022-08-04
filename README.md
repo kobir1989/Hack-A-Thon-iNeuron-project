@@ -25,5 +25,4 @@ iNeuron Home page project for Hack-a-thon Challenge.
 ### Live link [Netlify](https://hack-a-thon.netlify.app/)
 
 
-
 ## Created by Kobir Hossain
