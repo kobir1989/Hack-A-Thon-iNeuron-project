@@ -10,7 +10,12 @@
 }
 .btn-active {
   color: #ffff;
-  background-image: linear-gradient(90deg, #7858a6, #371b58);
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 101, 164),
+    rgba(0, 36, 93),
+    #251141
+  );
 }
 .btn:hover {
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
@@ -24,7 +29,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(90deg, #7858a6, #371b58);
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 101, 164),
+    rgba(0, 36, 93),
+    #251141
+  );
   z-index: -1;
   border-radius: 8px;
   transform: scale(0);
