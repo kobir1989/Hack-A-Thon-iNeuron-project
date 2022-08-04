@@ -219,7 +219,7 @@
     height: 30rem;
     border-radius: 8px;
     position: absolute;
-    top: 18%;
+    top: 15%;
     left: 5%;
   }
 
@@ -227,7 +227,7 @@
     position: absolute;
     width: 20rem;
     position: absolute;
-    top: 52%;
+    top: 50%;
     left: 5%;
   }
   .nav__line-1 .btn-1 {
